@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7c2d12">
+  <meta name="description" content="Nehru Nagar Market Bhilwara - Shop footwear, kurti, western tops and more. Order on WhatsApp.">
+  <title>Nehru Nagar Market | Bhilwara</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brandmark">NN</div>
+    <div class="brand">
+      <h1>NEHRU NAGAR MARKET</h1>
+      <p>BHILWARA • ONLINE SHOPPING</p>
+    </div>
+    <button class="install-btn" id="installBtn" hidden>Install</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">WELCOME TO OUR STORE</p>
+      <h2>आपकी पसंदीदा शॉपिंग,<br><span>अब आपके मोबाइल पर!</span></h2>
+      <p>Footwear • Kurti • Western Top • One Piece</p>
+      <a class="hero-cta" href="#products">अभी खरीदारी करें <span>→</span></a>
+    </section>
+
+    <section class="intro">
+      <div><span class="dot"></span> भीलवाड़ा में लोकल शॉपिंग</div>
+      <p>पसंद का सामान चुनें और WhatsApp पर ऑर्डर भेजें।</p>
+    </section>
+
+    <section class="catalog" id="products">
+      <div class="section-heading">
+        <div><p class="eyebrow">OUR COLLECTION</p><h2>हमारा कलेक्शन</h2></div>
+        <span class="count" id="productCount"></span>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="सभी">सभी</button>
+        <button class="filter" data-category="Footwear">Footwear</button>
+        <button class="filter" data-category="Kurti">Kurti</button>
+        <button class="filter" data-category="Western Top">Western Top</button>
+        <button class="filter" data-category="One Piece">One Piece</button>
+      </div>
+      <label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="सामान खोजें..."></label>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="how">
+      <p class="eyebrow">HOW TO ORDER</p>
+      <h2>ऑर्डर करना बहुत आसान है</h2>
+      <div class="steps">
+        <div><b>01</b><strong>सामान चुनें</strong><small>अपनी पसंद का प्रोडक्ट देखें</small></div>
+        <div><b>02</b><strong>WhatsApp दबाएँ</strong><small>ऑर्डर का मैसेज तैयार होगा</small></div>
+        <div><b>03</b><strong>ऑर्डर भेजें</strong><small>दुकान से पुष्टि प्राप्त करें</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>NEHRU NAGAR MARKET</h3>
+    <p>नेहरू नगर मार्केट, बजरंगी चौराहा,<br>100 फीट रोड, भीलवाड़ा, राजस्थान</p>
+    <a class="whatsapp-footer" href="https://wa.me/919714116777" target="_blank" rel="noopener">WhatsApp पर संपर्क करें</a>
+    <small>© <span id="year"></span> Nehru Nagar Market</small>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/919714116777?text=नमस्ते%2C%20मुझे%20आपकी%20दुकान%20से%20जानकारी%20चाहिए।" target="_blank" rel="noopener" aria-label="WhatsApp">☏</a>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
