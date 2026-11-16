@@ -5,4 +5,4 @@ window.STORE_PRODUCTS = [
   {id:2, name:"महिलाओं की कुर्ती", category:"Kurti", price:"", image:"", emoji:"👗"},
   {id:3, name:"लेटेस्ट वेस्टर्न टॉप", category:"Western Top", price:"", image:"", emoji:"👚"},
   {id:4, name:"वन पीस कलेक्शन", category:"One Piece", price:"", image:"", emoji:"✨"}
-];
+{id:5, name:"नई सैंडल कलेक्शन", category:"Footwear", price:"", image:"images/IMG-20261116-WA0016.jpg", emoji:"✨"},];
